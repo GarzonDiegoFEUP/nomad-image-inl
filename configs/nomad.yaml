@@ -27,3 +27,8 @@ mongo:
 elastic:
   entries_index: nomad_oasis_entries_v1
   materials_index: nomad_oasis_materials_v1
+
+plugins:
+  options:
+    schemas/legacy_plugin:
+      python_package: nomad-inl-base
