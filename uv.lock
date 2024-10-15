@@ -3594,7 +3594,7 @@ requires-dist = [
     { name = "eelsdbconverter", marker = "extra == 'plugins'", git = "https://github.com/nomad-coe/nomad-parser-eelsdb.git?rev=entry-point" },
     { name = "nomad-aitoolkit", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git?rev=b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8#b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8" },
     { name = "nomad-analysis", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-analysis.git?rev=develop" },
-    { name = "nomad-inl-base", marker = "extra == 'plugins'", git = "https://github.com/GarzonDiegoFEUP/nomad-inl-base.git?rev=e4e82c4f854fc6e8389644ae8f32cd6f5c316e8f#e4e82c4f854fc6e8389644ae8f32cd6f5c316e8f" },
+    { name = "nomad-inl-base", marker = "extra == 'plugins'", git = "https://github.com/GarzonDiegoFEUP/nomad-inl-base.git?rev=b0c03d176324a95903a5ee25b681504ff7c249f4#b0c03d176324a95903a5ee25b681504ff7c249f4" },
     { name = "nomad-lab", extras = ["parsing", "infrastructure"], specifier = ">=1.3.4" },
     { name = "nomad-lab", extras = ["parsing", "infrastructure", "dev"], marker = "extra == 'dev'", specifier = ">=1.3.4" },
     { name = "nomad-material-processing", marker = "extra == 'plugins'" },
@@ -3633,7 +3633,7 @@ wheels = [
 [[package]]
 name = "nomad-inl-base"
 version = "0.1.0"
-source = { git = "https://github.com/GarzonDiegoFEUP/nomad-inl-base.git?rev=e4e82c4f854fc6e8389644ae8f32cd6f5c316e8f#e4e82c4f854fc6e8389644ae8f32cd6f5c316e8f" }
+source = { git = "https://github.com/GarzonDiegoFEUP/nomad-inl-base.git?rev=b0c03d176324a95903a5ee25b681504ff7c249f4#b0c03d176324a95903a5ee25b681504ff7c249f4" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "nomad-material-processing" },
