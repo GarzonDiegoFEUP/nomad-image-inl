@@ -41,7 +41,7 @@ plugins = [
   "nomad-parser-plugins-database>=1.0",
   "nomad-measurements",
   "nomad-material-processing",
-  "nomad-inl-base @ git+https://github.com/GarzonDiegoFEUP/nomad-inl-base.git@d35a8dd287f4caff9dc29fde2098da02bc103019",
+  "nomad-inl-base @ git+https://github.com/GarzonDiegoFEUP/nomad-inl-base.git@e4e82c4f854fc6e8389644ae8f32cd6f5c316e8f",
   "nomad-analysis @ git+https://github.com/FAIRmat-NFDI/nomad-analysis.git@develop",
   "statsmodels"]
 dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.4"]
