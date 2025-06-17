@@ -3501,6 +3501,8 @@ version = "0.1"
 source = { editable = "." }
 dependencies = [
     { name = "nomad-lab", extra = ["infrastructure"] },
+    { name = "nptyping" },
+    { name = "toposort" },
 ]
 
 [package.optional-dependencies]
@@ -3542,8 +3544,10 @@ requires-dist = [
     { name = "nomad-parser-plugins-electronic", marker = "extra == 'plugins'", specifier = ">=1.0" },
     { name = "nomad-parser-plugins-workflow", marker = "extra == 'plugins'", specifier = ">=1.0" },
     { name = "nomad-schema-plugin-run", marker = "extra == 'plugins'", specifier = ">=1.0.1" },
+    { name = "nptyping" },
     { name = "pynxtools", extras = ["convert"], marker = "extra == 'plugins'", specifier = ">=0.10.8" },
     { name = "statsmodels", marker = "extra == 'plugins'" },
+    { name = "toposort" },
 ]
 provides-extras = ["plugins", "dev"]
 
@@ -3833,6 +3837,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/54/d2/92fa3243712b9a3e8bafaf60aac366da1cada3639ca767ff4b5b3654ec28/notebook_shim-0.2.4.tar.gz", hash = "sha256:b4b2cfa1b65d98307ca24361f5b30fe785b53c3fd07b7a47e89acb5e6ac638cb", size = 13167, upload-time = "2024-02-14T23:35:18.353Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f9/33/bd5b9137445ea4b680023eb0469b2bb969d61303dedb2aac6560ff3d14a1/notebook_shim-0.2.4-py3-none-any.whl", hash = "sha256:411a5be4e9dc882a074ccbcae671eda64cceb068767e9a3419096986560e1cef", size = 13307, upload-time = "2024-02-14T23:35:16.286Z" },
+]
+
+[[package]]
+name = "nptyping"
+version = "2.5.0"
+source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e1/b7/ffe533358c32506b1708feec0fb04ba0a35a959a94163fff5333671909da/nptyping-2.5.0.tar.gz", hash = "sha256:e3d35b53af967e6fb407c3016ff9abae954d3a0568f7cc13a461084224e8e20a", size = 71623, upload-time = "2023-02-20T21:57:11.814Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b1/28/92edc05378175de13a3d4986cee7531853634a22b7e5e21a988fa84fde3f/nptyping-2.5.0-py3-none-any.whl", hash = "sha256:764e51836faae33a7ae2e928af574cfb701355647accadcc89f2ad793630b7c8", size = 37602, upload-time = "2023-02-20T21:57:09.61Z" },
 ]
 
 [[package]]
